@@ -1,4 +1,4 @@
-if SHIELD_Fern_left
+if SHIELD_FERN_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Fern"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_Fern_left || SHIELD_Fern_right
+if SHIELD_FERN_LEFT || SHIELD_FERN_RIGHT
 
 config ZMK_SPLIT
     default y
