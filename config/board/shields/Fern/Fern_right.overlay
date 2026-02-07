@@ -1,9 +1,5 @@
 #include "Fern.dtsi"
 
-&default_transform {
-    col-offset = <5>;
-};
-
 &kscan0 {
     col-gpios
         = <&xiao_d 2 GPIO_ACTIVE_HIGH>
