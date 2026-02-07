@@ -24,7 +24,7 @@
 		>;
 	};
 
-	&kscan: kscan_0 {
+	kscan: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         label = "KSCAN0";
@@ -39,7 +39,7 @@
 
 	};
 
-	&kscan: kscan_1 {
+	kscan: kscan_1 {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         label = "KSCAN1";
