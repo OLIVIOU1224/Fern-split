@@ -7,7 +7,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 / {
 	chosen {
-		zmk,kscan = &kscan;
+		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
 		zmk,physical-layout = &physical_layout0;
     };
@@ -24,7 +24,7 @@
 		>;
 	};
 
-	kscan: kscan_0 {
+	kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         label = "KSCAN0";
@@ -39,7 +39,7 @@
 
 	};
 
-	kscan: kscan_1 {
+	kscan1: kscan_1 {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         label = "KSCAN1";
