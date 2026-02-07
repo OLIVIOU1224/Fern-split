@@ -1,9 +1,10 @@
 file_format: "1"
-id: "Fern"
-name: "Fern"
+id: fern
+name: Fern
 type: shield
-url: https://github.com/OLIVIOU1224/Fern-split
-requires: [xiao_ble]
+url: https://github.com/OLIVIOU1224/Fern-split/
+requires: 
+  - xiao_ble
 features:
   - keys
 siblings:
