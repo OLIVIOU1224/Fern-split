@@ -1,6 +1,6 @@
 #include "Fern.dtsi"
 
-&kscan : kscan_1 {
+&kscan: kscan_1 {
     col-gpios
         = <&xiao_d 9 GPIO_ACTIVE_HIGH>
         , <&xiao_d 10 GPIO_ACTIVE_HIGH>
