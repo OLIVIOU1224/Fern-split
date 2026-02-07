@@ -1,4 +1,4 @@
-#include "delta_omega.dtsi"
+#include "Fern.dtsi"
 
 &kscan_1 {
     col-gpios
