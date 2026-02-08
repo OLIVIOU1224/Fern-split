@@ -9,6 +9,7 @@
 
     mock_kscan0: kscan {
         compatible = "zmk,kscan-mock";
+        wakeup-source;
         columns = <0>;
         rows = <0>;
         events = <0>;
