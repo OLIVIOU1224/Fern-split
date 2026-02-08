@@ -16,3 +16,4 @@
 
 &kscan0 {
     status = "disabled";
+};
