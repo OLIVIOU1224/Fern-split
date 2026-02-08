@@ -1,6 +1,8 @@
+#include "fern.dtsi"
+
 / {
     chosen {
-        zmk,kscan = &mock_kscan; // 실제 스위치가 없으므로 mock 사용
+        zmk,kscan = &mock_kscan;
         zmk,matrix_transform = &default_transform;
     };
 
