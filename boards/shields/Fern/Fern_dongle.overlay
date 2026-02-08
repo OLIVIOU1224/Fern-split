@@ -8,7 +8,6 @@
 
     mock_kscan0: kscan {
         compatible = "zmk,kscan-mock";
-        wakeup-source;
         columns = <10>;
         rows = <4>;
         events = <0>;
@@ -17,4 +16,5 @@
 
 &kscan0 {
     status = "disabled";
+    /delete-property/ wakeup-source;
 };
