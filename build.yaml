@@ -3,3 +3,7 @@ include:
     shield: Fern_left
   - board: xiao_ble
     shield: Fern_right
+  - board: xiao_ble
+    shield: Fern_dongle
+  - board: xiao_ble
+    shield: Fern_reset
