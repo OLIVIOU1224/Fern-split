@@ -1,7 +1,7 @@
 # Copyright (c) 2024 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_FERN_FERN_DONGLE
+if SHIELD_FERN_FERN_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Fern"
@@ -14,7 +14,7 @@ config ZMK_USB
 
 endif
 
-if SHIELD_FERN_LEFT || SHIELD_FERN_RIGHT || SHIELD_FERN_DONGLE
+if SHIELD_FERN_LEFT || SHIELD_FERN_RIGHT ||
 
 config ZMK_SPLIT
     default y
