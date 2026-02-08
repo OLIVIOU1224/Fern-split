@@ -30,7 +30,4 @@
 
         diode-direction = "col2row";
 	};
-
-
-	};
 };
