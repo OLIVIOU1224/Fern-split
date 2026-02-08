@@ -9,7 +9,6 @@
 	chosen {
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
-    	zmk,physical-layout = &physical_layout0;
     };
 
 	default_transform: keymap_transform_0 {
@@ -31,11 +30,4 @@
 
         diode-direction = "col2row";
 	};
-
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        kscan = <&kscan0>;
-        transform = <&default_transform>;
-    };
 };
