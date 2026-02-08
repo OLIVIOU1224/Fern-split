@@ -1,4 +1,4 @@
-#include "fern.dtsi"
+#include "Fern.dtsi"
 
 / {
     chosen {
