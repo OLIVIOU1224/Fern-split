@@ -5,12 +5,6 @@ if SHIELD_FERN_FERN_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "Fern"
-
-config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
-    default y
-
-config ZMK_DISPLAY
-   default y
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
