@@ -4,8 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <dt-bindings/zmk/matrix_transform.h>
 #include "Fern.dtsi"
+
+&default_transform {
+    col-offset = <5>;
+};
 
 &kscan0 {
     row-gpios
