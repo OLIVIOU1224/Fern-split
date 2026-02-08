@@ -1,1 +1,13 @@
+/*
+ * Copyright (c) 2024 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
 
+#include "Fern.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
+/ {
+	chosen {
+		zmk,kscan = &kscan0;
+		zmk,matrix_transform = &default_transform;
+    	zmk,physical-layout = &physical_layout0;
