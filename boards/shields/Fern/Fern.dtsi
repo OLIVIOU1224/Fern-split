@@ -24,7 +24,7 @@
 		>;
 	};
 
-	kscan0: kscan {
+	kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         label = "KSCAN0";
@@ -32,7 +32,7 @@
         diode-direction = "col2row";
 	};
 
-	kscan1: kscan {
+	kscan1: kscan1 {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         label = "KSCAN1";
