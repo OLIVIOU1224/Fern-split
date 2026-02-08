@@ -5,4 +5,5 @@ include:
     shield: Fern_right
   - board: xiao_ble
     shield: Fern_dongle
-
+  - board: xiao_ble
+    shield: settings_reset
